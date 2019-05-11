@@ -1,0 +1,1 @@
+cmd_/home/zzz/code/kernel_driver/example1/hello.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/zzz/code/kernel_driver/example1/hello.ko /home/zzz/code/kernel_driver/example1/hello.o /home/zzz/code/kernel_driver/example1/hello.mod.o ;  true
